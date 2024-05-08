@@ -4,9 +4,11 @@ import { AppFab } from "./AppFab";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <AppButton />
-      <AppFab />
+      <div className="right-bottom">
+        <AppFab />
+      </div>
     </div>
   );
 }
